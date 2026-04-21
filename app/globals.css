@@ -1,26 +1,39 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Theme colors from your Figma */
+  --wall: #8FAE7A;         /* green wall */
+  --desk: #B09888;
+  --floor: #3a1f0f;        /* dark wood floor */
+  
+  /* System defaults */
+  --background: var(--wall);
+  --foreground: var(--desk);
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-wall: var(--wall);
+  --color-desk: var(--desk);
+  --color-floor: var(--floor);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    /* We'll use these when you add the dark mode toggle later */
+    --wall: #1a2420;
+    --desk: #B09888;
+    --floor: #0f0806;
+    --background: var(--wall);
+    --foreground: var(--desk);
   }
 }
 
 body {
-  background: var(--background);
+  background: var(--wall);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
