@@ -37,3 +37,24 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Hide all -night-only elements by default (light mode) */
+[id$="-night"] {
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.4s ease;
+}
+
+/* In dark mode, show them */
+[data-theme="dark"] [id$="-night"] {
+  opacity: 1;
+}
+
+[id$="-day"] {
+  transition: opacity 0.4s ease;
+}
+
+[data-theme="dark"] [id$="-day"] {
+  opacity: 0;
+  pointer-events: none;
+}
