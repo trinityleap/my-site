@@ -1,0 +1,10 @@
+<svg width="710" height="257" viewBox="0 0 710 257" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path id="lamp-light-night" d="M0 256.5L276.5 0H437.5L710 245.5L0 256.5Z" fill="url(#paint0_linear_22_218)"/>
+<defs>
+<linearGradient id="paint0_linear_22_218" x1="359" y1="-9.03106e-06" x2="357.5" y2="261" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FEFFD8"/>
+<stop offset="0.918269" stop-color="#999981" stop-opacity="0"/>
+<stop offset="0.9999" stop-color="#9FA087" stop-opacity="0.0673077"/>
+</linearGradient>
+</defs>
+</svg>
