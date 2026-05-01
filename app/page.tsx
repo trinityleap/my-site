@@ -11,7 +11,7 @@ export default function Home() {
 
       {/* Desk scene overlays both sections */}
       <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
-        <div className="w-full max-w-5xl pointer-events-auto">
+        <div className="w-full w-full pointer-events-auto">
           <DeskScene />
         </div>
       </div>
