@@ -10,9 +10,18 @@ export default function Navbar() {
         </Link>
 
         <div className="flex items-center gap-4">
-          <a href="https://github.com/trinityleap" target="_blank" rel="noopener noreferrer" className="hover:text-white transition">GitHub</a>
-          <a href="https://linkedin.com/in/trinityleap" target="_blank" rel="noopener noreferrer" className="hover:text-white transition">LinkedIn</a>
-          <a href="mailto:trinitylea@berkeley.edu" className="hover:text-white transition">Email</a>
+          <a href="/my-site/Trinity_Weevie.pdf" target="_blank" rel="noopener noreferrer">
+  Resume
+</a>
+          <a href="https://github.com/trinityleap" target="_blank" rel="noopener noreferrer" className="hover:text-white transition">
+            GitHub
+          </a>
+          <a href="https://linkedin.com/in/trinityleap" target="_blank" rel="noopener noreferrer" className="hover:text-white transition">
+            LinkedIn
+          </a>
+          <a href="mailto:trinitylea@berkeley.edu" className="hover:text-white transition">
+            Email
+          </a>
 
           <ThemeToggle />
         </div>
