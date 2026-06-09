@@ -43,7 +43,7 @@ export default function RootLayout({
       <body className="min-h-screen flex flex-col bg-[var(--wall,#8FAE7A)]">
         <Navbar />
         <main className="flex-1">{children}</main>
-        <Footer />
+        {/* <Footer /> */}
       </body>
     </html>
   );
