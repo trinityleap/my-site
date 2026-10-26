@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Trinity Lea",
+  title: "Trinity Weevie",
   description: "Data Science at UC Berkeley — software, data, and AI tooling.",
 };
 
