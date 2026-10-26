@@ -10,7 +10,7 @@ export default function Navbar() {
         </Link>
 
         <div className="flex items-center gap-4">
-          <a href="/my-site/public/Trinity_Weevie.pdf" target="_blank" rel="noopener noreferrer">
+          <a href="/my-site/Trinity_Weevie.pdf" target="_blank" rel="noopener noreferrer">
   Resume
 </a>
           <a href="https://github.com/trinityleap" target="_blank" rel="noopener noreferrer" className="hover:text-white transition">
